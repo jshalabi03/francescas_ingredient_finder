@@ -1,222 +1,212 @@
 [
     {
-        "id": 0,
         "category": "Appetizers",
         "name": "Bruschette Alla Romana",
         "description": "Garlic toast with tomatoes, fresh mozzarella, basil, and olive oil"
     },
     {
-        "id": 1,
         "category": "Appetizers",
         "name": "Polpette In Umido",
         "description": "Homemade 2oz. meatballs braised in tomato sauce and herbs"
     },
     {
-        "id": 2,
         "category": "Appetizers",
         "name": "Assorted Pizza",
         "description": "Thin crust pizzas with assorted toppings"
     },
     {
-        "id": 3,
         "category": "Appetizers",
         "name": "Lenticchie E Spinaci",
         "description": "Warm lentils with spinach and goat cheese"
     },
     {
-        "id": 4,
         "category": "Appetizers",
         "name": "Funghi Con Polenta",
         "description": "Sauteed wild mushrooms with creamy herbed polenta, shaved parmesean, and veal broth"
     },
     {
-        "id": 5,
         "category": "Appetizers",
         "name": "Risotto Al Pomodoro",
         "description": "Italian rice with roasted plum tomatoes, topped with argula, lemon, and shaved parmesean"
     },
     {
-        "id": 6,
         "category": "Appetizers",
         "name": "Vegetali Misti",
         "description": "Sauteed mixed vegetables with gorgonzola cheese"
     },
     {
-        "id": 7,
         "category": "Appetizers",
         "name": "Sausage & Peppers",
         "description": "Italian sausage with peppers, onions, garlic"
     },
     {
-        "id": 8,
         "category": "Appetizers",
         "name": "Calamari Fritti",
         "description": "Served with marinara sauce"
     },
     {
-        "id": 9,
         "category": "Appetizers",
         "name": "Gamberi Al Fresco",
         "description": "Shrimp with wild mushrooms, spinach, tomatoes, lemon, balsamico, and basil"
     },
     {
-        "id": 10,
+        
         "category": "Salads",
         "name": "Insalata Di Cesare",
         "description": "Caesar salad with garlic croutons, roasted peppers, and parmesean"
     },
     {
-        "id": 11,
+        
         "category": "Salads",
         "name": "Insalata Caprese",
         "description": "Tomatoes, fresh mozzarella, basil, and olive oil"
     },
     {
-        "id": 12,
+        
         "category": "Salads",
         "name": "Insalata Classica",
         "description": "Traditional dinner salad with romaine, carrots, cucumbers, tomatoes, extra virgin olive oil, and balsamico"
     },
     {
-        "id": 13,
+        
         "category": "Salads",
         "name": "Insalata Alla Francesca",
         "description": "Romaine, radicchio, and endive with seasonal vegetables, extra virgin olive oil, balsamico, and blue cheese"
     },
     {
-        "id": 14,
+        
         "category": "Pasta",
         "name": "Rigatoni Con Mozzarella",
         "description": "Pasta with tomato-basil sauce and topped with fresh mozzarella"
     },
     {
-        "id": 15,
+        
         "category": "Pasta",
         "name": "Rigatoni Alla Vodka",
         "description": "Pasta with a tomato-vodka cream sauce, basil, and fresh tomatoes"
     },
     {
-        "id": 16,
+        
         "category": "Pasta",
         "name": "Rigatoni Ai Funghi",
         "description": "Pasta with wild mushrooms, garlic, and a light tomato-basil sauce"
     },
     {
-        "id": 17,
+        
         "category": "Pasta",
         "name": "Rigatoni Con Asparagi",
         "description": "Pasta with a light lemon cream sauce, asparagus, and pine nuts"
     },
     {
-        "id": 18,
+        
         "category": "Pasta",
         "name": "Rigatoni Dei Sardi",
         "description": "Pasta with sausage, wild mushrooms, tomato sauce, and parmesean"
     },
     {
-        "id": 19,
+        
         "category": "Pasta",
         "name": "Rigatoni Con Spinaci",
         "description": "Spinach and ricotta filled ravioli sauteed with a four-cheese sauce, spinach, and a touch of tomato sauce"
     },
     {
-        "id": 20,
+        
         "category": "Pasta",
         "name": "Rigatoni Con Pollo",
         "description": "Pasta with grilled chicken breast, spinach, and pine nuts in a light basil cream sauce"
     },
     {
-        "id": 21,
+        
         "category": "Children's Menu",
         "name": "Rigatoni & Meatball",
         "description": "With tomato sauce"
     },
     {
-        "id": 22,
+        
         "category": "Children's Menu",
         "name": "Rigatoni",
         "description": "With butter"
     },
     {
-        "id": 23,
+        
         "category": "Children's Menu",
         "name": "Cheese Pizza",
         "description": ""
     },
     {
-        "id": 24,
+        
         "category": "Children's Menu",
         "name": "Crispy Chicken Tenders",
         "description": "With french fries"
     },
     {
-        "id": 25,
+        
         "category": "Children's Menu",
         "name": "Roasted Salmon",
         "description": "With steamed brocolli and carrots"
     },
     {
-        "id": 26,
+        
         "category": "Entrees",
         "name": "Parmigiana Di Melanzane",
         "description": "Baked eggplant parmesean with tomato-basil sauce and fresh mozzarella"
     },
     {
-        "id": 27,
+        
         "category": "Entrees",
         "name": "Pollo Al Limone",
         "description": "Roasted chicken breast with lemon, white wine, capers, and sauteed spinach"
     },
     {
-        "id": 28,
+        
         "category": "Entrees",
         "name": "Pollo Alla Romana",
         "description": "Roasted chicken breast with garlic, shallots, rosemary, lemon, olive oil, and roasted potatoes"
     },
     {
-        "id": 29,
+        
         "category": "Entrees",
         "name": "Pesce Bianco Della Casa",
         "description": "Sauteed whitefish with red onions, mushrooms, roasted peppers, garlic, and white wine"
     },
     {
-        "id": 30,
+        
         "category": "Entrees",
         "name": "Salmone Acqua Pazza",
         "description": "Roasted salmon with a spicy cherry tomato sauce, capers, garlic, and white wine over sauteed spinach"
     },
     {
-        "id": 31,
+        
         "category": "Entrees",
         "name": "Maiale Sassi",
         "description": "Pan-roasted pork tenderloin medallions with baby artichokes, wild mushrooms, and herbs in a light brandy sauce"
     },
     {
-        "id": 32,
+        
         "category": "Entrees",
         "name": "Filetto Con Barolo",
         "description": "Roasted filet mignon medallions with baby spinach, wild mushrooms, and a barolo red wine sauce"
     },
     {
-        "id": 33,
+        
         "category": "Desserts",
         "name": "Tiramisu",
         "description": "Ladyfingers squaked in espresso with mascarpone cheese and cocoa"
     },
     {
-        "id": 34,
+        
         "category": "Desserts",
         "name": "Torta Di Formaggio",
         "description": "Mascarpone cheesecake, graham cracker crust, fresh mixed berries, raspberry sauce, and whipped cream"
     },
     {
-        "id": 35,
+        
         "category": "Desserts",
         "name": "Profiteroles Al Gelato",
         "description": "Cream puffs filled with vanilla gelato and topped with chocolate sauce"
     },
     {
-        "id": 36,
+        
         "category": "Desserts",
         "name": "Dessert Platters",
         "description": "Traditional cannoli, vanilla cheesecake with berries, s'mores bar, matcha amaretti cookie"

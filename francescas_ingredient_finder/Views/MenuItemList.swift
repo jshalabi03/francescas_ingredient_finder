@@ -29,14 +29,14 @@ struct MenuItemList: View {
             
             List {
                 ForEach(grouped_menu_items, id: \.key) {
-                    key, value in
-                    Section(header: Text(key)) {
-                        ForEach(value) { item in
-                            Text(item.name)
+                    title, items in
+                    Section(header: Text(title).font(.title).foregroundColor(.black)) {
+                        ForEach(items) { menu_item in
+                            MenuItemDetail(menu_item: menu_item)
                         }
                     }
                 }
-            }
+            }.animation(.easeInOut)
         }
     }
 }

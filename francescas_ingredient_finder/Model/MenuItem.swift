@@ -9,7 +9,7 @@ import Foundation
 
 struct MenuItem: Codable, Identifiable {
     var id: Int
-    var type: String
+    var category: String
     var name: String
     var description: String
 }

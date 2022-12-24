@@ -15,12 +15,27 @@ struct MenuItemList: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             MenuSearchBar(searchText: $search_text)
-            List(menu_items.filter {
-                menu_item in self.search_text.isEmpty || menu_item.name.lowercased().contains(self.search_text.lowercased())
-                                
-            }) {
+            
+            let filtered_menu_items = menu_items.filter {
                 menu_item in
-                MenuItemDetail(menu_item: menu_item)
+                self.search_text.isEmpty ||
+                menu_item.name
+                    .lowercased()
+                    .contains(self.search_text.lowercased())
+            }
+            
+            let grouped_menu_items = Dictionary(grouping: filtered_menu_items, by: { $0.category })
+                .map {(key: String, value: [MenuItem]) in (key: key, value: value)}
+            
+            List {
+                ForEach(grouped_menu_items, id: \.key) {
+                    key, value in
+                    Section(header: Text(key)) {
+                        ForEach(value) { item in
+                            Text(item.name)
+                        }
+                    }
+                }
             }
         }
     }

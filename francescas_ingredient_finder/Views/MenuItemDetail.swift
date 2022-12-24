@@ -35,7 +35,7 @@ struct MenuItemDetail: View {
                         Spacer()
                     }
                 }
-        }
+        }.padding(.all, 5)
     }
 }
 

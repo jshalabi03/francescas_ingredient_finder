@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct MenuItem: Codable {
+struct MenuItem: Codable, Identifiable {
+    var id: Int
+    var type: String
     var name: String
     var description: String
 }

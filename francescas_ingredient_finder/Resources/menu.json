@@ -1,14 +1,44 @@
 [
     {
+        "id": 0,
+        "type": "Appetizers",
         "name": "Bruschette Alla Romana",
         "description": "Garlic toast with tomatoes, fresh mozzarella, basil, and olive oil"
     },
     {
+        "id": 1,
+        "type": "Appetizers",
         "name": "Polpette In Umido",
         "description": "Homemade 2oz. meatballs braised in tomato sauce and herbs"
     },
     {
+        "id": 2,
+        "type": "Appetizers",
         "name": "Assorted Pizza",
         "description": "Thin crust pizzas with assorted toppings"
+    },
+    {
+        "id": 3,
+        "type": "Appetizers",
+        "name": "Lenticchie E Spinaci",
+        "description": "Warm lentils with spinach and goat cheese"
+    },
+    {
+        "id": 4,
+        "type": "Appetizers",
+        "name": "Funghi Con Polenta",
+        "description": "Sauteed wild mushrooms with creamy herbed polenta, shaved parmesean, and veal broth"
+    },
+    {
+        "id": 5,
+        "type": "Appetizers",
+        "name": "Risotto Al Pomodoro",
+        "description": "Italian rice with roasted plum tomatoes, topped with argula, lemon, and shaved parmesean"
+    },
+    {
+        "id": 6,
+        "type": "Appetizers",
+        "name": "Vegetali Misti",
+        "description": "Sauteed mixed vegetables with gorgonzola cheese"
     },
 ]

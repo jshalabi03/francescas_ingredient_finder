@@ -28,10 +28,13 @@ struct MenuItemDetail: View {
             }.onTapGesture {
                 self.show_description.toggle()
             }
-            if show_description {
-                Text(menu_item.description)
-                    .padding(.top, 1)
-            }
+                if show_description {
+                    HStack {
+                        Text(menu_item.description)
+                            .padding(.top, 1)
+                        Spacer()
+                    }
+                }
         }
     }
 }

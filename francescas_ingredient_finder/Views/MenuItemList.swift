@@ -10,10 +10,15 @@ import SwiftUI
 
 struct MenuItemList: View {
     
+    @State private var search_text = ""
+    
     var body: some View {
-        VStack {
+        VStack(alignment: .leading, spacing: 10) {
             TextField("Search", text: $search_text)
-            List(menu_items) {
+            List(menu_items.filter {
+                menu_item in self.search_text.isEmpty || menu_item.name.lowercased().contains(self.search_text.lowercased())
+                                
+            }) {
                 menu_item in
                 MenuItemDetail(menu_item: menu_item)
             }

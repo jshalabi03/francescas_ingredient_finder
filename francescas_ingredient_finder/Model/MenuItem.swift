@@ -15,11 +15,11 @@ struct MenuItem: Codable, Identifiable {
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        
         category = try container.decode(String.self, forKey: .category)
         name = try container.decode(String.self, forKey: .name)
         description = try container.decode(String.self, forKey: .description)
-        
         id = UUID().uuidString
     }
 }
+
+let category_order: [String] = ["Appetizers", "Salads", "Pastas", "Children's Menu", "Entrees", "Desserts"]

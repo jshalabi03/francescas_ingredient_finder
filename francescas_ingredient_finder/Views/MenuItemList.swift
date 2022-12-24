@@ -25,6 +25,11 @@ struct MenuItemList: View {
             }
             
             let grouped_menu_items = Dictionary(grouping: filtered_menu_items, by: { $0.category })
+                .sorted {
+                    item1, item2 in
+                    category_order.firstIndex(of: item1.key)!
+                    < category_order.firstIndex(of: item2.key)!
+                }
                 .map {(key: String, value: [MenuItem]) in (key: key, value: value)}
             
             List {

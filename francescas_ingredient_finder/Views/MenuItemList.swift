@@ -14,7 +14,7 @@ struct MenuItemList: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            MenuSearchBar(searchText: $search_text)
+            MenuSearchBar(search_text: $search_text)
             
             let filtered_menu_items = menu_items.filter {
                 menu_item in
@@ -41,7 +41,7 @@ struct MenuItemList: View {
                         }
                     }
                 }
-            }.animation(.easeInOut)
+            }
         }
     }
 }

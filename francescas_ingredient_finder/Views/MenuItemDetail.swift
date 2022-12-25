@@ -17,8 +17,6 @@ struct MenuItemDetail: View {
             HStack {
                 Text(menu_item.name)
                     .font(.headline)
-    //            Text(menu_item.description)
-    //                .font(.subheadline)
                 if (show_description) {
                     Image(systemName: "chevron.up")
                 } else {
@@ -27,14 +25,14 @@ struct MenuItemDetail: View {
                 Spacer()
             }.onTapGesture {
                 self.show_description.toggle()
-            }
-                if show_description {
-                    HStack {
-                        Text(menu_item.description)
-                            .padding(.top, 1)
-                        Spacer()
-                    }
+            }.padding(.all, 5)
+            
+            if show_description {
+                HStack {
+                    Text(menu_item.description)
+                    Spacer()
                 }
+            }
         }.padding(.all, 5)
     }
 }

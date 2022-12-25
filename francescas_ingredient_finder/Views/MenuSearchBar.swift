@@ -9,16 +9,26 @@ import Foundation
 import SwiftUI
 
 struct MenuSearchBar: View {
-    @Binding var searchText: String
+    @Binding var search_text: String
 
     var body: some View {
-        TextField("Search", text: $searchText)
-            .padding(10)
-            .overlay(
-                RoundedRectangle(cornerRadius: 8)
-                    .stroke(Color.gray, lineWidth: 1)
-            )
-            .padding(10)
+        HStack {
+            TextField("Search", text: $search_text)
+                .padding(10)
+            .autocorrectionDisabled(true)
+            
+            if !search_text.isEmpty {
+                Button(action: {
+                    self.search_text = ""
+                }) {
+                    Image(systemName: "xmark.circle.fill")
+                        .foregroundColor(.secondary)
+                }.padding(.all, 10)
+            }
+        }.overlay(
+            RoundedRectangle(cornerRadius: 8)
+                .stroke(Color.primary, lineWidth: 1)
+        ).padding(.all, 10)
     }
 }
 
